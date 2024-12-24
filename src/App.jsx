@@ -46,8 +46,10 @@ function App() {
     <>
       <div className="w-screen h-screen bg-[url('./assets/passImg.jpg')] bg-cover">
         <div
-          className=" bg-slate-700 px-2 py-1 fixed top-56 right-[30%] rounded-lg w-[40%] sm:w-[95%]
-          sm:right-3 sm:fixed sm:mr-[1px] sm:ml-1 sm:h-[38%] sm:py-5 sm:mt-10 sm:mb-8 py-5 lg:w-[80%] lg:-mr-32 "
+          className=" bg-slate-700 px-2 py-1 fixed top-56 right-[30%] rounded-lg w-[40%] sm:w-[95%] 
+          
+          bg-opacity-[96%]
+          sm:right-3 sm:fixed sm:mr-[1px] sm:ml-1 sm:h-[50%] sm:py-5 sm:-mt-14 sm:mb-8 py-5 lg:w-[80%] lg:-mr-32 "
         >
           <h2 className=" sm:text-pretty sm:text-center  text-3xl text-center text-white">
             Password Generator
